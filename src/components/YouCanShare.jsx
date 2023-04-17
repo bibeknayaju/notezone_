@@ -8,12 +8,12 @@ import LaptopIcon from "@mui/icons-material/Laptop";
 
 function YouCanShare() {
   return (
-    <div className="max-w-5xl m-auto text-center items-center mt-7 md:flex-col">
+    <div className="max-w-5xl m-auto text-center items-center mt-7  md:flex-col">
       <h1 className="text-hero_color font-Montserrat mb-4 font-bold text-3xl md:text-5xl ">
         You can Share
       </h1>
 
-      <div className="flex flex-col m-auto items-center justify-center gap-3 md:flex-auto lg:flex-row">
+      <div className="flex flex-col m-auto items-center justify-center gap-3 md:flex-auto  lg:flex-row">
         <div className="h-youcanshare border-2 border-hero_color p-3 rounded-3xl w-youcanshare">
           <div className="flex items-center m-auto justify-center p-7">
             <AssignmentIcon

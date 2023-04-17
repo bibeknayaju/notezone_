@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import Footer from "../Footer";
-import NavBar from "../NavBar";
-import Announcement from "../Announcement";
-import announcementData from "../AnnouncementData";
+import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
+import Announcement from "../components/Announcement";
+import announcementData from "../components/AnnouncementData";
 
 function Announcements() {
   const [announceData, setAnnouncetData] = useState(announcementData);
   return (
     <>
       <NavBar />
-      <div className="flex flex-col">
+      <div className="flex mt-10 md:mt-0 lg:mt-0 flex-col">
         <div className="m-auto mb-10">
           <div className=" flex-col">
             <h1 className="text-hero_color font-Montserrat text-center font-bold text-2xl mt-1 md:text-5xl lg:text-5xl">

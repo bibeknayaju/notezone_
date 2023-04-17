@@ -9,6 +9,8 @@ module.exports = {
   theme: {
     colors: {
       hero_color: "#FC5252",
+      aboutus: "#31303B",
+      navbar: "#FFFFFF",
     },
     height: {
       hero_height: "80vh",
@@ -16,16 +18,28 @@ module.exports = {
       youcanshare: "11rem",
       learnwithus: "15rem",
       announcement: "16rem",
+      aboutus: "4rem",
+      aboutus_image: "2rem",
+      login: "60vh",
+      navbar: "4rem",
+      fullheight: "100%",
+      halfheight: "50px",
+      quaterheight: "25%",
     },
     width: {
       hero_height: "80vh",
       signup: "90vh",
-
       youcanshare: "11rem",
       maxwidth: "1200px",
       fullwidth: "100%",
       learnwithus: "15rem",
       announcement: "16rem",
+      aboutus: "80%",
+      DehazeIcon: "100%",
+      contribution_input: "200px",
+      halfwidth: "50%",
+      zerowidth: "0%",
+      quaterwidth: "25%",
     },
     extend: {
       fontFamily: {

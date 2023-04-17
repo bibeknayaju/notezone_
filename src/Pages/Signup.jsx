@@ -13,7 +13,7 @@ function Signup() {
             <Link to="/">
               <img
                 className="sm:h-14 items-center justify-center m-auto object-contain cursor-pointer md:h-20 mt-5 mb-10"
-                src="https://scontent.fktm1-1.fna.fbcdn.net/v/t1.15752-9/323928748_3123048007988284_1501040822897416533_n.png?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Kr0zstMQnqEAX9-qTuI&_nc_ht=scontent.fktm1-1.fna&oh=03_AdSnNgCvqlHWYzvawa6np7oQip6YDigaKAire6Xm6Nzzew&oe=641177A1"
+                src="https://scontent.fktm19-1.fna.fbcdn.net/v/t1.15752-9/323928748_3123048007988284_1501040822897416533_n.png?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=P69aMqgmf24AX9UedR4&_nc_ht=scontent.fktm19-1.fna&oh=03_AdRkpCReSrOW6b8qmlUiybD2i5Z2xIlUxwvVLP4IZrPzEA&oe=645DB661"
                 alt="logo"
               />
             </Link>
@@ -103,7 +103,7 @@ function Signup() {
             </button>
             <p className="text-left font-Poppins font-light text-sm ml-4">
               Already have an account?{" "}
-              <Link className="underline" to="/">
+              <Link className="underline" to="/login">
                 Log in
               </Link>
             </p>

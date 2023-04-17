@@ -1,7 +1,7 @@
 import React from "react";
-import AboutStudents from "../AboutStudents";
-import Footer from "../Footer";
-import NavBar from "../NavBar";
+import AboutStudents from "../components/AboutStudents";
+import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
 
 function Notes() {
   return (
